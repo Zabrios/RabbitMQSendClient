@@ -1,0 +1,32 @@
+﻿[
+	{
+		"Nombre": "Darla",
+		"Apellidos": "Peterson",
+		"Edad": 31
+	},
+	{
+		"Nombre": "Willa",
+		"Apellidos": "Simon",
+		"Edad": 20
+	},
+	{
+		"Nombre": "Ellen",
+		"Apellidos": "Cervantes",
+		"Edad": 33
+	},
+	{
+		"Nombre": "Ashlee",
+		"Apellidos": "Singleton",
+		"Edad": 38
+	},
+	{
+		"Nombre": "Janna",
+		"Apellidos": "West",
+		"Edad": 35
+	},
+	{
+		"Nombre": "Hardy",
+		"Apellidos": "York",
+		"Edad": 31
+	}
+]
