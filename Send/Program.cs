@@ -35,7 +35,7 @@ namespace Send
             CommonService commonService = new CommonService();
             IConnection connection = commonService.GetRabbitMqConnection();
             IModel model = connection.CreateModel();
-            //SetupSerialisationMessageQueue(model);
+            SetupSerialisationMessageQueue(model);
             RunSerialisationDemo(model);
         }
 
@@ -47,7 +47,7 @@ namespace Send
         private static void RunSerialisationDemo(IModel model)
         {
             //Alumno al = new Alumno("El", "Guayaba", 288);
-            Console.WriteLine("Enter customer name. Quit with 'q'.");
+            Console.WriteLine("Enter alumno name. Quit with 'q'.");
             while (true)
             {
                 string alumnoData = Console.ReadLine();
